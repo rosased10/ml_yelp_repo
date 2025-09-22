@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python / venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+sk_cache/
+
+# Data & models (keep OUT of git)
+data/
+yelp_dataset/
+*.json
+*.jsonl
+*.csv
+*.parquet
+models/
+*.joblib
+*.pkl
